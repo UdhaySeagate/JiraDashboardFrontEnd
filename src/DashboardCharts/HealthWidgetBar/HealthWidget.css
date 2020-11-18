@@ -1,0 +1,62 @@
+.popover-table-content table td,
+.popover-table-content table th {
+  border: 1px solid #e2e2e2;
+  padding: 10px 20px;
+  text-align: center;
+  font-weight: 600;
+}
+.popover-table-content table {
+  border-collapse: collapse;
+}
+/* .popover-table-content{
+    border-radius: 10px;
+} */
+.popover-table-content table td {
+  color: #0152cc;
+}
+.popover-resolved {
+  border: 1px solid rgba(87, 217, 162);
+}
+.popover-rem {
+  border: 1px solid rgb(255, 85, 48);
+}
+.popover-total {
+  border: 1px solid rgba(0, 184, 217);
+}
+.popover {
+  /* border-radius: 7px; */
+  position: relative;
+}
+/* .popover:after,
+.popover:before {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+.popover:after {
+  top: 30px;
+  border-color: transparent #fff transparent transparent;
+  border-width: 7px 10px 7px 0;
+  left: -9.5px;
+} */
+
+/* this border color controlls the outside, thin border */
+/* .popover:before {
+  top: 29px;
+  left: -12px;
+  border-width: 8px 11px 8px 0;
+}
+
+.popover-resolved.popover:before {
+  border-color: transparent rgba(87, 217, 162) transparent transparent;
+}
+.popover-rem.popover:before {
+  border-color: transparent rgb(255, 85, 48) transparent transparent;
+}
+.popover-total.popover:before {
+  border-color: transparent rgba(0, 184, 217) transparent transparent;
+} */

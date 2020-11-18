@@ -1,0 +1,234 @@
+.filterdata > div > div > div > div {
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.filterdata > div > div > div button {
+  width: 180px;
+}
+.filterdata > div > div > div button > span {
+  width: 100%;
+  text-align: left;
+}
+.filterdata.flexfilter {
+  display: flex;
+}
+.filterdata > div > div {
+  display: flex;
+  display: inline-block;
+}
+
+.styledContentContainer-p0j3f7-0 > div {
+  width: 180px;
+  margin-top: -7px;
+}
+.heading {
+  margin-left: 20px;
+}
+.floatright {
+  float: right;
+}
+
+.details-pi {
+  font-size: 14px;
+}
+.details-pi .aheader {
+  font-weight: bold;
+  color: #0052cc;
+}
+.details-pi > span {
+  display: block;
+}
+
+.commonLable {
+  color: #42526e;
+}
+.commonstories {
+  font-weight: bold;
+  color: #0052cc;
+}
+.storiescom {
+  font-weight: bold;
+  color: lightblue;
+}
+.storiesrem {
+  font-weight: bold;
+}
+.paddten {
+  padding: 5px;
+}
+
+.loaderDiv {
+  text-align: center;
+  position: absolute;
+  left: 50%;
+  top: 40%;
+  transform: translate(-50%, -40%);
+}
+
+.loadercontent {
+  padding: 10px;
+  display: block;
+}
+.alignDate {
+  float: right;
+}
+.underline {
+  border-bottom: 1px solid blue;
+  padding-bottom: 10px;
+  margin: auto;
+}
+.paddrightalig{
+  padding-right: 10px;
+}
+
+.toolData {
+  float: right;
+}
+.rightAlign {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.paddfilter {
+  padding-bottom: 5px;
+  display: flex;
+}
+.paddfilter >span:first-child {
+  width: 420px;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.paddfiltertop {
+  padding-top: 7px;
+}
+.underlinpad {
+  border-top: 1px solid lightgray;
+  padding-top: 5px;
+  flex-direction: column;
+  flex-flow: row wrap;
+  display: flex;
+  justify-content: space-between;
+}
+.paddleft {
+  padding-left: 30px;
+}
+.cursor {
+  cursor: pointer;
+  width: 160px;
+  display: block;
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+/* for gadget with single layput */
+@media only screen and (max-width: 1095px) {
+  .filterdata > div > div > div button {
+    width: 162px;
+  }
+  .styledContentContainer-p0j3f7-0 > div {
+    width: 162px;
+    margin-top: -7px;
+  }
+  .paddfilter >span:first-child {
+    width: 380px;
+  }
+  .cursor {
+    float: none;
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .filterdata > div > div > div button {
+    width: 135px;
+  }
+  .styledContentContainer-p0j3f7-0 > div {
+    width: 135px;
+    margin-top: -7px;
+  }
+  .paddfilter >span:first-child {
+    width: 380px;
+  }
+  .cursor {
+    float: none;
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .filterdata.flexfilter {
+    display: flex;
+    flex-direction: column;
+    flex-flow: row wrap;
+  }
+  .heading {
+    margin: 4px;
+    padding-top: 10px;
+    float: left;
+  }
+  .filterdata > div > div > div button {
+    width: 240px;
+  }
+  .styledContentContainer-p0j3f7-0 > div {
+    width: 240px;
+    margin-top: -7px;
+  }
+  .paddfilter >span:first-child {
+    width: 640px;
+  }
+  .cursor{
+    width: 160px;
+  }
+}
+
+@media only screen and (min-width: 590px) and (max-width: 700px) {
+  .filterdata > div > div > div button {
+    width: 155px;
+  }
+  .styledContentContainer-p0j3f7-0 > div {
+    width: 155px;
+    margin-top: -7px;
+  }
+  .paddfilter >span:first-child {
+    width: 490px;
+  }
+  .cursor {
+    width: 70px;
+    float: none;
+  }
+  
+}
+@media only screen and (min-width: 700px) and (max-width: 800px) {
+  .filterdata > div > div > div button {
+    width: 200px;
+  }
+  .styledContentContainer-p0j3f7-0 > div {
+    width: 200px;
+    margin-top: -7px;
+  }
+  .paddfilter >span:first-child {
+    width: 520px;
+  }
+  .cursor {
+    float: none;
+    width: 160px;
+  }
+}
+@media only screen and (max-width: 522px) {
+  .filterdata > div > div > div button {
+    width: 120px;
+  }
+  .styledContentContainer-p0j3f7-0 > div {
+    width: 120px;
+  }
+  .paddfilter >span:first-child {
+    width: 380px;
+  }
+ .cursor{
+    width: 80px;
+  }
+}
+@media only screen and (max-width: 400px) {
+ body{
+   width: 600px;
+ }
+}

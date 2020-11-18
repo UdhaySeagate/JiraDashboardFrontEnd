@@ -1,0 +1,42 @@
+.colorclass {
+  width: 4px;
+  height: 4px;
+  padding: 2px;
+  display: inline-block;
+}
+.red {
+  border: 1px solid red;
+  background-color: red;
+}
+.green {
+  border: 1px solid green;
+  background-color: green;
+}
+.orange {
+  border: 1px solid orange;
+  background-color: orange;
+}
+.grey {
+  border: 1px solid grey;
+  background-color: grey;
+}
+.textcommon {
+  font-size: 10px;
+  display: inline-block;
+  text-align: right;
+  font-weight: bold;
+}
+.spillover {
+  width: 66%;
+}
+.eremaining {
+  width: 24%;
+  padding-right: 50px;
+}
+.espend {
+  width: 72%;
+}
+.weekend {
+  padding-right: 47px;
+  width: 28%;
+}

@@ -1,0 +1,255 @@
+.velocity-info {
+  /* padding: 0 10px 10px 10px; */
+  /* border: 1px solid #cfcece; */
+  border-radius: 5px;
+  /* color: #42526e; */
+  float: left;
+  max-width: 80%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.velocity-info p {
+  font-size: 13px;
+  margin: 5px 0;
+}
+.velocity-info > div {
+  margin-bottom: 5px;
+  margin-right: 20px;
+}
+.velocity-info > div {
+  font-weight: normal;
+  font-size: 15px;
+  display: inline-block;
+}
+.velocity-info h4 {
+  font-weight: normal;
+  display: inline-block;
+  margin-right: 20px;
+  /* color: #42526e; */
+  /* font-size: 15px; */
+}
+.velocity-info h4 span,
+.velocity-info > div span {
+  color: #0152cc;
+  font-weight: bold;
+  font-size: 15px;
+}
+.sp-info {
+  font-size: 15px;
+  float: right;
+  /* color: #42526e; */
+  margin-top: 10px;
+}
+.sp-info span {
+  font-weight: bold;
+  color: #0152cc;
+}
+.sp-info > div {
+  /* margin-right: 20px; */
+}
+.pi-velocity > .c3 {
+  float: left;
+  width: 100%;
+  margin-top: 2%;
+}
+.pi-velocity .c3 svg {
+  /* font: 8px sans-serif; */
+  position: relative;
+}
+.pi-velocity .c3 svg > g:last-of-type {
+  position: absolute;
+  top: 0;
+  /* transform: translate(32%, 10px);
+  width: 100px; */
+}
+.custom-tooltip,
+.estmpopup,
+.velocitypopup {
+  padding: 8px;
+  background: #fff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 1px 4px 0px rgba(0, 0, 0, 0.75);
+}
+.custom-tooltip table span {
+  color: #0152cc;
+  font-weight: bold;
+  font-size: 12spx;
+}
+.custom-tooltip {
+  font-size: 10px;
+  /* color: #42526e; */
+}
+.custom-tooltip table tr td:first-child {
+  text-align: right;
+}
+.custom-tooltip table tr td:last-child {
+  padding-left: 3px;
+}
+.custom-tooltip table tr td {
+  line-height: 12px;
+}
+.custom-tooltip > div {
+  display: block;
+}
+.custom-tooltip > div span {
+  font-size: 10px;
+  color: rgba(255, 85, 48);
+}
+.custom-tooltip > div h6 {
+  display: inline-block;
+  font-size: 12px;
+  color: #0152cc;
+}
+.custom-tooltip > div:last-of-type {
+  font-size: 10px;
+}
+.pi-velocity .c3-axis-x-label {
+  transform: translate(0px, 20px);
+}
+.velocity-info > div.forcast-info {
+  display: block;
+}
+.forcast-info div {
+  display: inline-block;
+  margin-right: 5px;
+  font-size: 15px;
+}
+.pi-velocity h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 21px;
+  text-align: left;
+  color: #0152cc;
+  border-bottom: 2px dashed #ebecf0;
+  /* margin: 0; */
+  padding-bottom: 10px;
+}
+.pi-velocity .c3 {
+  max-width: 100%;
+}
+.sp-info > div:first-child {
+  /* cursor: pointer; */
+  margin-bottom: 5px;
+}
+.velocitypopup p {
+  font-size: 12px;
+}
+.velocitypopup span {
+  color: rgb(222, 53, 10);
+  /* font-size: 14px; */
+}
+/* .velocity-info > div:nth-child(2) {
+  cursor: pointer;
+} */
+.estmpopup,
+.velocitypopup {
+  max-width: 200px;
+}
+.estmpopup p {
+  font-size: 14px;
+}
+.estmpopup span:first-of-type {
+  color: rgb(222, 53, 10);
+}
+/* .estmpopup span:last-of-type {
+  font-size: 10px;
+} */
+.pi-velocity .c3-text {
+  /* fill: #172b4d !important; */
+  font-size: 9px;
+  font-weight: bold;
+  transform: translateY(15px);
+}
+.pi-velocity .c3-texts.c3-texts-SP-Added > .c3-text.mystyle {
+  fill-opacity: 1 !important;
+  transform: translate(0px, -9px);
+}
+.pi-velocity .c3-axis.c3-axis-x .tick text {
+  fill: #0152cc;
+  letter-spacing: 0.3px;
+}
+.c3-texts-SP-Added .c3-text,
+.c3-texts-Sprint-Forecast .c3-text {
+  /* transform: translate(0px, -8px); */
+}
+.pi-velocity .c3-text.mvabove {
+  transform: translate(13px, -9px);
+}
+.pi-velocity svg .c3-grid .c3-xgrids > .c3-xgrid {
+  stroke: transparent;
+}
+.pi-velocity svg .c3-grid .c3-xgrids > .c3-xgrid.forecastline {
+  stroke: #aaa;
+}
+.chart-pivelocity .c3-grid .c3-xgrid-focus {
+  visibility: hidden !important;
+}
+.c3-texts > .c3-text.remove {
+  fill-opacity: 0 !important;
+}
+/* .pi-velocity .c3-texts-SP-Completed .c3-text{
+  fill: #00875a !important;
+}
+.pi-velocity .c3-target-SP-Planned .c3-text, 
+.pi-velocity .c3-target-SP-Added .c3-text
+{
+  fill: #fff !important;
+} */
+.pi-velocity .c3-chart-text .c3-text {
+  fill: #172b4d !important;
+}
+.pi-velocity svg .c3-axis-x > g.rmveLabel > * {
+  fill: transparent !important;
+  stroke: transparent !important;
+}
+.pivelocity-chart {
+  float: left;
+  width: 100%;
+}
+.info-icon {
+  border: 0.5px solid;
+  height: 12px;
+  width: 12px;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 8px !important;
+  padding: 0 1px 11px 4px;
+  margin-left: 4px;
+  font-style: italic;
+  color: rgb(222, 53, 10) !important;
+  border-color: rgb(222, 53, 10);
+}
+.sp-info > div > div,
+.velocity-info > div > div {
+  display: inline-block;
+}
+.pull-left {
+  float: left;
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1095px) {
+  .velocity-info > div {
+    display: block;
+  }
+  .velocity-info {
+    display: flex;
+    flex-direction: column;
+    float: none;
+    flex-flow: row wrap;
+  }
+  .forcast-info div {
+    display: block;
+  }
+  .pi-velocity .c3-axis-x-label {
+    transform: translate(0px, 62px);
+  }
+}
+@media only screen and (min-width: 600px) and (max-width: 1095px) {
+  .pi-velocity .c3-axis-x-label {
+    transform: translate(0px, 30px);
+  }
+}

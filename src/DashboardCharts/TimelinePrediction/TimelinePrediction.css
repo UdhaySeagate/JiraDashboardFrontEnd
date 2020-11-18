@@ -1,0 +1,39 @@
+.tcap {
+  width: 45%;
+}
+.espends {
+  width: 70%;
+}
+.weekends {
+  padding-right: 55px;
+  width: 28%;
+  padding-bottom: 50px;
+}
+.eremainingdata {
+  width: 24%;
+  padding-right: 10px;
+}
+.timelines .firstspin {
+  padding: 15px;
+  text-align: left;
+  color: #42526e;
+}
+.marleft {
+  margin-left: 12px;
+}
+.padd {
+  padding: 10px;
+  float: right;
+}
+.timelines .c3-tooltip {
+  text-align: left;
+}
+.timelines .c3-tooltip-name--Weekends {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .marleft {
+    margin-left: 0px;
+  }
+}

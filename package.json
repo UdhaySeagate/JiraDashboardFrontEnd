@@ -1,0 +1,65 @@
+{
+  "name": "chart_jira",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@atlaskit/dropdown-menu": "^9.0.5",
+    "@atlaskit/select": "^11.0.13",
+    "@atlaskit/tooltip": "^15.2.9",
+    "axios": "^0.19.2",
+    "moment": "^2.27.0",
+    "rc-progress": "^3.0.0",
+    "react": "^16.13.1",
+    "react-c3js": "^0.1.20",
+    "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-scripts": "3.4.1",
+    "save-svg-as-png": "^1.4.17",
+    "styled-components": "3.2.6"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "prettier-auto-fix": "prettier --check --write src/",
+    "eslint": "eslint --fix --ext .js,.jsx ."
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "src/**/*.{js,jsx}": [
+      "prettier-auto-fix"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.6.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.11",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-react": "^7.20.3",
+    "prettier": "^2.0.5",
+    "pretty-quick": "^2.0.1"
+  }
+}

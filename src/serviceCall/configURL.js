@@ -1,0 +1,12 @@
+const URL = 'http://localhost:9090/';
+// const URL = 'http://ssc-vm-c-0074.colo.seagate.com:8080/';
+export const PI_DATA_URL = `${URL}rest/filters/getPiAndComponents`;
+export const SPRINT_DATA_URL = `${URL}rest/filters/getSprintsForPi`;
+export const GET_SPRINT_DETAILS = `${URL}rest/filters/getSprintDetails`;
+export const GET_USER_STORY_BURN_DOWN = `${URL}rest/storypoints/getStoryPointsBurndown`;
+export const GET_VERSION_DETAILS = `${URL}rest/storypoints/getVersion`;
+export const GET_HEALTH_WIDGET_INFORMATION = `${URL}rest/healthwidget/getAllHealthDataIssues`;
+export const GET_NO_OF_USERS = `${URL}rest/healthwidget/getAllProjectUsers`;
+export const GET_STORY_POINTS = `${URL}rest/healthwidget/getIssuesByDate`;
+export const GET_PI_VELOCITY_INFORMATION = `${URL}rest/velocity/getVelocityChart`;
+export const test = `http://localhost:3004/data`;
